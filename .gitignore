@@ -1,0 +1,8 @@
+node_modules/
+audit/
+.DS_Store
+# 内部文書（公開リポジトリに含めない）
+brief.json
+concept.md
+design.md
+copy.md

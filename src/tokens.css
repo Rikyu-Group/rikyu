@@ -1,0 +1,40 @@
+/* ============ 利休 design tokens v2 ============ */
+:root{
+  /* 色 — design.md の5色以外を増やさない */
+  --sumi:#141210;            /* 墨 — 基調の闇 */
+  --sumi-2:#1c1915;          /* 墨の二段目 */
+  --sumi-3:#0f0d0b;          /* フッターの底 */
+  --paper:#f3eee3;           /* 和紙 */
+  --paper-2:#eae3d3;         /* 和紙の陰 */
+  --kin:#b08d57;             /* 行灯金 — 罫線・番号 */
+  --kin-bright:#cfa96e;      /* 金の明部（暗地の小さめ文字用） */
+  --kin-paper:#7d6134;       /* 紙上の金（コントラスト確保） */
+  --rikyu:#5c6653;           /* 利休鼠 */
+  --rikyu-soft:#78816c;
+  --shu:#a03e2d;             /* 弁柄朱 — CTAと創業バッジのみ */
+  --shu-deep:#8a3020;
+
+  /* 文字色 */
+  --ink:#26221d;             /* 紙上の本文 */
+  --ink-soft:#5f584c;        /* 紙上の弱い文字（AA確保） */
+  --wash:#efe9dc;            /* 暗地の主文字 */
+  --wash-soft:#cfc7b6;       /* 暗地の副文字（AA確保） */
+  --wash-mute:#a89f8d;       /* 暗地の弱い文字（AA確保） */
+
+  /* 書体 — 外部読み込みなし。システム明朝で組む */
+  --serif:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho","YuMincho","BIZ UDPMincho",serif;
+  --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif;
+
+  /* 余白・寸法 */
+  --sec-y:clamp(80px, 12vw, 128px);
+  --wrap:1120px;
+  --gut:24px;
+
+  /* 罫線 */
+  --line-d:rgba(176,141,87,.28);      /* 暗地の金罫 */
+  --line-d-strong:rgba(176,141,87,.55);
+  --line-p:rgba(38,34,29,.16);        /* 紙上の墨罫 */
+
+  /* 紙の地合い（ノイズ） */
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+}
