@@ -83,12 +83,12 @@ const ICON = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewB
 const header = `<header class="site">
   <a class="logo" href="/">利休<small>RIKYU · CHIANG MAI</small></a>
   <nav class="sub"><a href="/blog/">読みもの</a><a href="/faq/">よくある問い</a></nav>
-  <a class="h-cta" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">一報を受け取る</a>
+  <a class="h-cta" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">先行案内</a>
 </header>`;
 const cta = `<div class="cta">
     <div class="t">整う。遊ぶ。つながる。</div>
     <div class="s">チェンマイ・ナイトバザール3F ジャパニーズ ウェルネスラウンジ「利休」— <span class="nowrap">2026年開業準備中</span></div>
-    <div class="row"><a class="main" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">開業の一報を、LINEで受け取る</a><a class="ghost" href="/">トップページへ</a></div>
+    <div class="row"><a class="main" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">先行案内を受け取る</a><a class="ghost" href="/">トップページへ</a></div>
   </div>`;
 const footer = `<footer>
   <a href="/blog/">利休ノウナイ</a> — © 2026 RIKYU, Chiang Mai
