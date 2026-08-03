@@ -366,7 +366,7 @@ body.menu-open{overflow:hidden}
   display:flex;flex-direction:column;text-align:center;position:relative;
 }
 .plan.take{border-color:var(--line-d-strong);background:linear-gradient(180deg,rgba(176,141,87,.12),transparent)}
-.plan.take::before{
+.plan.take[data-badge]::before{
   content:attr(data-badge);position:absolute;top:-13px;left:50%;transform:translateX(-50%);
   background:var(--kin);color:#141210;font-family:var(--sans);
   font-size:10.5px;letter-spacing:.24em;padding:5px 16px 4px 19px;white-space:nowrap;
@@ -609,7 +609,7 @@ footer .copy{margin-top:48px;font-family:var(--sans);font-size:10px;letter-spaci
       <span class="s-ar" aria-hidden="true">→</span>
       <div class="step"><b>บัตรรายครั้ง</b><small>ถ้าถูกใจ</small></div>
       <span class="s-ar" aria-hidden="true">→</span>
-      <div class="step"><b>สมาชิก</b><small>ผ่านการแนะนำ</small></div>
+      <div class="step"><b>สมาชิก</b><small>ลึกขึ้นไปอีก</small></div>
     </div>
     <div class="sub-plans">
       <div class="sp rv">
@@ -627,7 +627,7 @@ footer .copy{margin-top:48px;font-family:var(--sans);font-size:10px;letter-spaci
       </div>
     </div>
     <div class="plans solo">
-      <div class="plan take rv" data-badge="ระบบแนะนำ">
+      <div class="plan take rv">
         <div class="p-kanji solo-name">สมาชิก RIKYU</div>
         <div class="p-name">MEMBER</div>
         <div class="price">3,500<small> THB / เดือน</small></div>
@@ -635,7 +635,6 @@ footer .copy{margin-top:48px;font-family:var(--sans);font-size:10px;letter-spaci
           <li>ทั้ง 休 และ 利 ใช้ได้ไม่จำกัด</li>
           <li>เข้าร่วมคอมมูนิตี้ออนไลน์ (รีทรีตและกิจกรรม)</li>
           <li>คำเชิญกิจกรรมประจำ·บริการรถรับส่ง</li>
-          <li>สมัครผ่านการแนะนำ</li>
         </ul>
         <div class="tag">MEMBERSHIP</div>
       </div>
