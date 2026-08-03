@@ -118,7 +118,7 @@ const html = `<!doctype html>
 <header class="site">
   <a class="logo" href="/">利休<small>RIKYU · CHIANG MAI</small></a>
   <nav class="sub"><a href="/blog/">読みもの</a><a href="/faq/">よくある問い</a></nav>
-  <a class="h-cta" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">まずは一見</a>
+  <a class="h-cta" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">一報を受け取る</a>
 </header>
 <main>
   <div class="meta">FAQ</div>
@@ -128,7 +128,7 @@ ${qaHtml}
   <div class="note">※ 料金・内容・営業時間は開業時に確定します。</div>
   <div class="cta">
     <div class="t">整う。遊ぶ。つながる。</div>
-    <div class="row"><a class="main" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">まずは一見から — 500 THB</a><a class="ghost" href="/blog/">「利休ノウナイ」を読む</a></div>
+    <div class="row"><a class="main" href="https://line.me/R/ti/p/@rikyu" target="_blank" rel="noopener">開業の一報を、LINEで受け取る</a><a class="ghost" href="/blog/">「利休ノウナイ」を読む</a></div>
   </div>
 </main>
 <footer>
