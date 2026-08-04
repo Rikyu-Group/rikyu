@@ -117,7 +117,6 @@ L.en = [
   ['整う。遊ぶ。つながる。<br>利を追い、休を極める。', 'Restore. Play. Belong.<br>Chase ri, master kyū.'],
   // ロケーション
   // フッター
-  ['<div class="tag rv">整う。遊ぶ。つながる。</div>', '<div class="tag rv">Restore. Play. Belong.</div>'],
   ['<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">「利休ノウナイ」を読む</a></div>', '<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">Read the Founder’s Journal</a></div>'],
 ];
 
@@ -205,7 +204,6 @@ L.zh = [
   ['<p>目指すのは、売り手よし、買い手よし、世間よし。関わるみんなが得をする三方よしの商いを、百年つづく形で。</p>',
    '<p>我们追求「三方好」：卖家好、买家好、世间好。让所有参与者都受益的生意，以延续百年的方式经营。</p>'],
   ['整う。遊ぶ。つながる。<br>利を追い、休を極める。', '放松。玩乐。结缘。<br>逐「利」，极「休」。'],
-  ['<div class="tag rv">整う。遊ぶ。つながる。</div>', '<div class="tag rv">放松。玩乐。结缘。</div>'],
   ['<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">「利休ノウナイ」を読む</a></div>', '<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">阅读创始人博客</a></div>'],
 ];
 
@@ -294,7 +292,6 @@ L.ko = [
   ['<p>目指すのは、売り手よし、買い手よし、世間よし。関わるみんなが得をする三方よしの商いを、百年つづく形で。</p>',
    '<p>지향하는 것은 파는 이도 좋고, 사는 이도 좋고, 세상에도 좋은 ‘삼포요시(三方よし)’. 관계하는 모두가 이득을 보는 장사를, 백 년 이어지는 형태로.</p>'],
   ['整う。遊ぶ。つながる。<br>利を追い、休を極める。', '회복. 놀이. 인연.<br>利를 좇고, 休를 다한다.'],
-  ['<div class="tag rv">整う。遊ぶ。つながる。</div>', '<div class="tag rv">회복. 놀이. 인연.</div>'],
   ['<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">「利休ノウナイ」を読む</a></div>', '<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">창업자 저널 읽기</a></div>'],
 ];
 
@@ -383,7 +380,6 @@ L.th = [
   ['<p>目指すのは、売り手よし、買い手よし、世間よし。関わるみんなが得をする三方よしの商いを、百年つづく形で。</p>',
    '<p>สิ่งที่เรามุ่งหวังคือ “ซันโปโยชิ” — ดีต่อผู้ขาย ดีต่อผู้ซื้อ ดีต่อสังคม การค้าที่ทุกฝ่ายได้ประโยชน์ ในรูปแบบที่ยั่งยืนไปอีกร้อยปี</p>'],
   ['整う。遊ぶ。つながる。<br>利を追い、休を極める。', 'ผ่อนคลาย สนุก ผูกพัน<br>ไล่ตาม 利 และฝึก 休 ให้ถึงที่สุด'],
-  ['<div class="tag rv">整う。遊ぶ。つながる。</div>', '<div class="tag rv">ผ่อนคลาย สนุก ผูกพัน</div>'],
   ['<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">「利休ノウナイ」を読む</a></div>', '<div class="f-cta rv"><a class="btn btn-shu" href="/blog/">อ่านบันทึกผู้ก่อตั้ง</a></div>'],
 ];
 
