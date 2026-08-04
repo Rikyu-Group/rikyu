@@ -21,13 +21,14 @@ const html = `<!doctype html>
 --serif:"Hiragino Mincho ProN","Yu Mincho",serif;--sans:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;--line-d:rgba(176,141,87,.28)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--sumi);color:var(--wash);font-family:var(--serif);min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;position:relative;overflow:hidden}
-.ring{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(120vmin,600px);height:min(120vmin,600px);border-radius:50%;border:1px solid rgba(176,141,87,.3);pointer-events:none}
+.ring{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vmin,560px);height:min(88vmin,560px);border-radius:50%;border:1px solid rgba(176,141,87,.3);pointer-events:none}
 .brand{position:relative;font-size:26px;letter-spacing:.35em;text-indent:.35em;font-weight:500}
 .brand small{display:block;margin-top:8px;font-family:var(--sans);font-size:9px;letter-spacing:.3em;color:var(--kin-bright)}
 h1{position:relative;margin-top:44px;font-size:clamp(22px,5vw,30px);letter-spacing:.2em;font-weight:500;line-height:2}
 .sub{position:relative;margin-top:18px;font-size:14px;letter-spacing:.08em;color:var(--wash-soft);line-height:2.3;max-width:480px}
 .langs{position:relative;margin-top:26px;font-family:var(--sans);font-size:12px;color:var(--wash-mute);line-height:2.2;letter-spacing:.04em}
 .row{position:relative;margin-top:40px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.nowrap{display:inline-block}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:12px 32px;font-size:13.5px;letter-spacing:.2em;text-decoration:none;color:var(--wash);border:1px solid transparent}
 .btn.shu{background:var(--shu);color:#f6efe4}
 .btn.shu:hover{background:var(--shu-deep)}
@@ -39,7 +40,7 @@ h1{position:relative;margin-top:44px;font-size:clamp(22px,5vw,30px);letter-spaci
 <div class="ring" aria-hidden="true"></div>
 <div class="brand">利休<small>RIKYU · CHIANG MAI</small></div>
 <h1>公式LINE、ただいま準備中です。</h1>
-<p class="sub">整い次第、このサイトと読みもの「利休ノウナイ」でお知らせします。開業の先行案内も、そちらから。もう少しだけ、お待ちください。</p>
+<p class="sub">整い次第、このサイトと読みもの「利休ノウナイ」でお知らせします。開業の先行案内も、そちらから。もう少しだけ、<span class="nowrap">お待ちください。</span></p>
 <p class="langs">Our official LINE is coming soon.<br>官方LINE即将开通 · 공식 LINE 준비 중 · LINE ทางการกำลังจะเปิด</p>
 <div class="row">
   <a class="btn shu" href="/">トップページへ</a>
